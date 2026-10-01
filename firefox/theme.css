@@ -166,16 +166,18 @@
 	}
 
 	/* Window buttons style */
-	.titlebar-button {
+ .titlebar-button {
 		-moz-appearance: none !important;
 		border: none !important;
 		border-radius: 100px !important;
 		height: 16px;
 		width: 16px;
-		margin: 16px 4px !important;
+	
+		background-size: 16px 16px;
+		--inactive-titlebar-opacity: 1 !important; 
+			margin: 16px 4px !important;
 		padding: 2px 0 !important;
-		--inactive-titlebar-opacity: 1 !important;
-	}
+		}
 
 	&, &:-moz-window-inactive {
 		.titlebar-button .toolbarbutton-icon {
@@ -189,7 +191,15 @@
 	}
 }
 
+	
+*:has(#vertical-tabs) #nav-bar { 
+  padding-left: 90px !important;
+}
 
+ 
+*:has(#vertical-tabs) 	.titlebar-buttonbox  	.titlebar-button  {
+  margin: 12px 4px !important; 
+}  
 /* Fullscreen headerbar */
 &:root[inFullscreen] {
 	/* Fullscreen headerbar padding for 1 button */
