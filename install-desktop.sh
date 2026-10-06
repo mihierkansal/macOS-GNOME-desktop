@@ -41,5 +41,28 @@ gsettings set org.gnome.mutter overlay-key ''
 
 gsettings set org.gnome.desktop.wm.preferences button-layout 'close,minimize,maximize:'
 
+#!/bin/bash
+
+echo "Applying universal Flatpak theme and icon overrides..."
+
+# 1. Unset the aggressive GTK_THEME variable that breaks Libadwaita layout engines
+flatpak override --user --unset-env=GTK_THEME
+
+# 2. Grant Read-Only access to all potential Icon directories
+flatpak override --user --filesystem=xdg-data/icons:ro
+flatpak override --user --filesystem=~/.icons:ro
+flatpak override --user --filesystem=~/.local/share/icons:ro
+
+# 3. Grant Read-Only access to GTK config directories and Asset themes
+flatpak override --user --filesystem=xdg-config/gtk-4.0:ro
+flatpak override --user --filesystem=~/.themes:ro
+flatpak override --user --filesystem=~/.local/share/themes:ro
+
+# 4. Grant Read-Only access to dconf so apps can detect your active icon theme name
+flatpak override --user --filesystem=~/.config/dconf:ro
+
+echo "All overrides successfully applied! Please restart your Flatpak applications."
+
+
 # 10. Reload GNOME Shell window components
 killall -3 gnome-shell 2>/dev/null || echo "Please log out and log back in to finalize."
