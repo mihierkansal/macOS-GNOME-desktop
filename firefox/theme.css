@@ -192,12 +192,12 @@
 }
 
 	
-*:has(#vertical-tabs) #nav-bar { 
+*:has(#vertical-tabs #tabbrowser-tabs) #nav-bar { 
   padding-left: 90px !important;
 }
 
  
-*:has(#vertical-tabs) 	.titlebar-buttonbox  	.titlebar-button  {
+*:has(#vertical-tabs #tabbrowser-tabs) 	.titlebar-buttonbox  	.titlebar-button  {
   margin: 12px 4px !important; 
 }  
 /* Fullscreen headerbar */
