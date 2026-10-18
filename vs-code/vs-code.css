@@ -23,15 +23,15 @@
   border-radius: 999rem;
 }
 
-.titlebar-container .window-controls-container > *:nth-child(3) {
+.titlebar-container .window-controls-container > .window-close {
   order: 0 !important;
 }
 
-.titlebar-container .window-controls-container > *:nth-child(1) {
+.titlebar-container .window-controls-container > .window-minimize {
   order: 1 !important;
 }
 
-.titlebar-container .window-controls-container > *:nth-child(2) {
+.titlebar-container .window-controls-container > .window-max-restore {
   order: 2 !important;
 }
 .window-appicon {
@@ -41,50 +41,93 @@
   padding-right: 0.25rem;
 }
 
-.titlebar-container .window-controls-container > *:nth-child(3) {
+.titlebar-container .window-controls-container > .window-close {
   background-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2216%22%20height%3D%2216%22%3E%3Cpath%20fill%3D%22%23cb4e43%22%20d%3D%22M8%2015A7%207%200%201%200%208%201a7%207%200%200%200%200%2014%22%2F%3E%3Cpath%20fill%3D%22%23fe6254%22%20d%3D%22M8%2014.5a6.5%206.5%200%201%200%200-13%206.5%206.5%200%200%200%200%2013%22%2F%3E%3C%2Fsvg%3E") !important;
 }
-.titlebar-container .window-controls-container > *:nth-child(3):hover {
+.titlebar-container .window-controls-container > .window-close:hover {
   background-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2216%22%20height%3D%2216%22%3E%3Cpath%20fill%3D%22%23cb4e43%22%20d%3D%22M8%2015.002a7%207%200%201%200%200-14%207%207%200%200%200%200%2014%22%2F%3E%3Cpath%20fill%3D%22%23fe6254%22%20d%3D%22M8%2014.488a6.5%206.5%200%201%200%200-13%206.5%206.5%200%200%200%200%2013%22%2F%3E%3Cpath%20d%3D%22M5.169%205.091a1%201%200%200%200%200%201.414L6.583%207.92%205.169%209.334a1%201%200%200%200%200%201.414%201%201%200%200%200%201.414%200l1.414-1.414%201.414%201.414a1%201%200%200%200%201.414%200%201%201%200%200%200%200-1.414L9.411%207.92l1.414-1.415a1%201%200%200%200%200-1.414%201%201%200%200%200-1.414%200L7.997%206.505%206.583%205.091a1%201%200%200%200-1.414%200%22%20opacity%3D%22.5%22%2F%3E%3C%2Fsvg%3E") !important;
 }
-.titlebar-container .window-controls-container > *:nth-child(3):active {
+.titlebar-container .window-controls-container > .window-close:active {
   background-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2216%22%20height%3D%2216%22%3E%3Cpath%20fill%3D%22%23cb4e43%22%20d%3D%22M8%2015.002a7%207%200%201%200%200-14%207%207%200%200%200%200%2014%22%20style%3D%22fill-rule%3Aevenodd%22%2F%3E%3Cpath%20fill%3D%22%23fe6254%22%20d%3D%22M8%2014.488a6.5%206.5%200%201%200%200-13%206.5%206.5%200%200%200%200%2013%22%20style%3D%22fill%3A%23cb4e43%3Bfill-opacity%3A1%3Bfill-rule%3Aevenodd%22%2F%3E%3Cpath%20d%3D%22M5.169%205.091a1%201%200%200%200%200%201.414L6.583%207.92%205.169%209.334a1%201%200%200%200%200%201.414%201%201%200%200%200%201.414%200l1.414-1.414%201.414%201.414a1%201%200%200%200%201.414%200%201%201%200%200%200%200-1.414L9.411%207.92l1.414-1.415a1%201%200%200%200%200-1.414%201%201%200%200%200-1.414%200L7.997%206.505%206.583%205.091a1%201%200%200%200-1.414%200%22%20opacity%3D%22.5%22%20style%3D%22stroke-width%3A3.7795%22%2F%3E%3C%2Fsvg%3E") !important;
 }
 
-.titlebar-container .window-controls-container > *:nth-child(1):hover {
+.titlebar-container .window-controls-container > .window-minimize:hover {
   background-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2216%22%20height%3D%2216%22%3E%3Cg%20transform%3D%22translate(-266%20-584.52)scale(3.7795)%22%3E%3Cg%20fill-rule%3D%22evenodd%22%3E%3Cpath%20fill%3D%22%23caa124%22%20d%3D%22M72.496%20158.625a1.852%201.852%200%201%200%200-3.704%201.852%201.852%200%200%200%200%203.704%22%2F%3E%3Cpath%20fill%3D%22%23fdc92d%22%20d%3D%22M72.496%20158.493a1.72%201.72%200%201%200%200-3.44%201.72%201.72%200%200%200%200%203.44%22%2F%3E%3C%2Fg%3E%3Crect%20width%3D%222.117%22%20height%3D%22.529%22%20x%3D%2271.438%22%20y%3D%22156.51%22%20opacity%3D%22.5%22%20ry%3D%22.265%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E") !important;
 }
 
-.titlebar-container .window-controls-container > *:nth-child(1):active {
+.titlebar-container .window-controls-container > .window-minimize:active {
   background-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2216%22%20height%3D%2216%22%3E%3Cpath%20fill%3D%22%23caa124%22%20d%3D%22M8%2015A7%207%200%201%200%208%201a7%207%200%200%200%200%2014%22%20style%3D%22fill-rule%3Aevenodd%22%2F%3E%3Crect%20width%3D%228%22%20height%3D%222%22%20x%3D%223.998%22%20y%3D%226.992%22%20opacity%3D%22.5%22%20ry%3D%221%22%20style%3D%22stroke-width%3A3.7795%22%2F%3E%3C%2Fsvg%3E") !important;
 }
 
-.titlebar-container .window-controls-container > *:nth-child(2) {
+.titlebar-container .window-controls-container > .window-max-restore {
   background-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2216%22%20height%3D%2216%22%3E%3Cg%20fill-rule%3D%22evenodd%22%3E%3Cpath%20fill%3D%22%2320a932%22%20d%3D%22M8%2015A7%207%200%201%200%208%201a7%207%200%200%200%200%2014%22%2F%3E%3Cpath%20fill%3D%22%2328d33f%22%20d%3D%22M8%2014.5a6.5%206.5%200%201%200%200-13%206.5%206.5%200%200%200%200%2013%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E") !important;
 }
 
-.titlebar-container .window-controls-container > *:nth-child(2):hover {
+.titlebar-container .window-controls-container > .window-max-restore:hover {
   background-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2216%22%20height%3D%2216%22%3E%3Cg%20fill-rule%3D%22evenodd%22%3E%3Cpath%20fill%3D%22%2320a932%22%20d%3D%22M8.002%2014.999a7%207%200%201%200%200-14%207%207%200%200%200%200%2014%22%2F%3E%3Cpath%20fill%3D%22%2328d33f%22%20d%3D%22M8.002%2014.507a6.5%206.5%200%201%200%200-13%206.5%206.5%200%200%200%200%2013%22%2F%3E%3C%2Fg%3E%3Cpath%20d%3D%22m6.41%204.98%204.587%204.585V5.98c0-.415-.585-1-1-1zM4.998%206.392V9.98c0%20.416.584%201%201%201h3.586z%22%20opacity%3D%22.5%22%2F%3E%3C%2Fsvg%3E") !important;
 }
 
-.titlebar-container .window-controls-container > *:nth-child(2):active {
+.titlebar-container .window-controls-container > .window-max-restore:active {
   background-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2216%22%20height%3D%2216%22%3E%3Cpath%20fill%3D%22%2320a932%22%20fill-rule%3D%22evenodd%22%20d%3D%22M8.002%2014.999a7%207%200%201%200%200-14%207%207%200%200%200%200%2014%22%2F%3E%3Cpath%20d%3D%22m6.41%204.98%204.587%204.585V5.98c0-.415-.585-1-1-1zM4.998%206.392V9.98c0%20.416.584%201%201%201h3.586z%22%20opacity%3D%22.5%22%2F%3E%3C%2Fsvg%3E") !important;
 }
 
 .maximized
   .titlebar-container
   .window-controls-container
-  > *:nth-child(2):hover {
+  > .window-max-restore:hover {
   background-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2216%22%20height%3D%2216%22%3E%3Cg%20fill-rule%3D%22evenodd%22%3E%3Cpath%20fill%3D%22%2320a932%22%20d%3D%22M8%2014.999a7%207%200%201%200%200-14%207%207%200%200%200%200%2014%22%2F%3E%3Cpath%20fill%3D%22%2328d33f%22%20d%3D%22M8%2014.507a6.5%206.5%200%201%200%200-13%206.5%206.5%200%200%200%200%2013%22%2F%3E%3C%2Fg%3E%3Cpath%20d%3D%22M8.025%203.414V7c0%20.416.585%201%201%201h3.586zM3.39%208l4.586%204.586V9c0-.416-.585-1-1-1z%22%20opacity%3D%22.5%22%2F%3E%3C%2Fsvg%3E") !important;
 }
 
 .maximized
   .titlebar-container
   .window-controls-container
-  > *:nth-child(2):active {
+  > .window-max-restore:active {
   background-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2216%22%20height%3D%2216%22%3E%3Cpath%20fill%3D%22%2320a932%22%20d%3D%22M8%2015A7%207%200%201%200%208%201a7%207%200%200%200%200%2014%22%20style%3D%22fill-rule%3Aevenodd%22%2F%3E%3Cpath%20d%3D%22M8.025%203.414V7c0%20.416.585%201%201%201h3.586zM3.39%208l4.586%204.586V9c0-.416-.585-1-1-1z%22%20opacity%3D%22.5%22%2F%3E%3C%2Fsvg%3E") !important;
 }
 
-.titlebar-container .window-controls-container > *:nth-child(1) {
+.titlebar-container .window-controls-container > .window-minimize {
   background-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2216%22%20height%3D%2216%22%3E%3Cg%20fill-rule%3D%22evenodd%22%3E%3Cpath%20fill%3D%22%23caa124%22%20d%3D%22M8%2015A7%207%200%201%200%208%201a7%207%200%200%200%200%2014%22%2F%3E%3Cpath%20fill%3D%22%23fdc92d%22%20d%3D%22M8%2014.5a6.5%206.5%200%201%200%200-13%206.5%206.5%200%200%200%200%2013%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E") !important;
+}
+
+.inactive .titlebar-container .window-controls-container > * {
+  background-image: url("data:image/svg+xml,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20version%3D%221.1%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cg%20id%3D%22titlebutton-minimize-backdrop%22%20transform%3D%22translate%28-253%20268.64%29%22%3E%3Crect%20x%3D%22253%22%20y%3D%22-268.64%22%20width%3D%2216%22%20height%3D%2216%22%20ry%3D%221.6931e-5%22%20opacity%3D%220%22%20stroke-width%3D%22.47432%22%20style%3D%22paint-order%3Amarkers%20stroke%20fill%22%2F%3E%3Cg%20transform%3D%22translate%28254%2C-267.64%29%22%20enable-background%3D%22new%22%3E%3Cg%20transform%3D%22translate%28-5%2C-1033.4%29%22%20fill-rule%3D%22evenodd%22%3E%3Cpath%20d%3D%22m12%201047.4c3.8659%200%206.9999-3.134%206.9999-7s-3.134-7-6.9999-7c-3.866%200-7.0001%203.134-7.0001%207s3.134%207%207.0001%207%22%20fill%3D%22%235d5d5d%22%2F%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E") !important;
+}
+
+.inactive
+  .titlebar-container
+  .window-controls-container
+  > .window-minimize:hover,
+.inactive
+  .titlebar-container
+  .window-controls-container
+  > .window-minimize:active {
+  background-image: url("data:image/svg+xml,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20version%3D%221.1%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cg%20id%3D%22titlebutton-minimize-backdrop%22%20transform%3D%22translate%28-253%20268.64%29%22%3E%3Crect%20x%3D%22253%22%20y%3D%22-268.64%22%20width%3D%2216%22%20height%3D%2216%22%20ry%3D%221.6931e-5%22%20opacity%3D%220%22%20stroke-width%3D%22.47432%22%20style%3D%22paint-order%3Amarkers%20stroke%20fill%22%2F%3E%3Cg%20transform%3D%22translate%28254%2C-267.64%29%22%20enable-background%3D%22new%22%3E%3Cg%20transform%3D%22translate%28-5%2C-1033.4%29%22%20fill-rule%3D%22evenodd%22%3E%3Cpath%20d%3D%22m12%201047.4c3.8659%200%206.9999-3.134%206.9999-7s-3.134-7-6.9999-7c-3.866%200-7.0001%203.134-7.0001%207s3.134%207%207.0001%207%22%20fill%3D%22%235d5d5d%22%2F%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fg%3E%3Crect%20x%3D%223.9983%22%20y%3D%226.9922%22%20width%3D%228.0001%22%20height%3D%222%22%20ry%3D%22.99998%22%20opacity%3D%22.5%22%20stroke-width%3D%223.7795%22%2F%3E%3C%2Fsvg%3E") !important;
+}
+.inactive
+  .titlebar-container
+  .window-controls-container
+  > .window-max-restore:hover,
+.inactive
+  .titlebar-container
+  .window-controls-container
+  > .window-max-restore:active {
+  background-image: url("data:image/svg+xml,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20version%3D%221.1%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cg%20id%3D%22titlebutton-minimize-backdrop%22%20transform%3D%22translate%28-253%2C268.64%29%22%3E%3Crect%20x%3D%22253%22%20y%3D%22-268.64%22%20width%3D%2216%22%20height%3D%2216%22%20ry%3D%221.6931e-5%22%20opacity%3D%220%22%20stroke-width%3D%22.47432%22%20style%3D%22paint-order%3Amarkers%20stroke%20fill%22%2F%3E%3Cg%20transform%3D%22translate%28254%2C-267.64%29%22%20enable-background%3D%22new%22%3E%3Cg%20transform%3D%22translate%28-5%2C-1033.4%29%22%20fill-rule%3D%22evenodd%22%3E%3Cpath%20d%3D%22m12%201047.4c3.8659%200%206.9999-3.134%206.9999-7s-3.134-7-6.9999-7c-3.866%200-7.0001%203.134-7.0001%207s3.134%207%207.0001%207%22%20fill%3D%22%235d5d5d%22%2F%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fg%3E%3Cpath%20d%3D%22m6.4129%204.9952%204.586%204.5862v-3.586c0-0.41553-0.5845-1-1-1zm-1.414%201.4141v3.586c0%200.41553%200.58446%201%200.99998%201h3.5859z%22%20opacity%3D%22.5%22%20stroke-width%3D%223.7796%22%2F%3E%3C%2Fsvg%3E") !important;
+}
+
+.inactive
+  .titlebar-container
+  .window-controls-container
+  > .window-max-restore:hover,
+.inactive
+  .titlebar-container
+  .window-controls-container
+  > .window-max-restore:active {
+  background-image: url("data:image/svg+xml,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20version%3D%221.1%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cpath%20d%3D%22m8.0019%2014.999c3.8661%200%207-3.1339%207-7s-3.134-7-7-7c-3.8661%200-7%203.134-7%207%200%203.8661%203.134%207%207%207%22%20fill%3D%22%235d5d5d%22%20fill-rule%3D%22evenodd%22%20stroke-width%3D%222.9396%22%2F%3E%3Cpath%20d%3D%22m8.0254%203.4141v3.5859c0%200.41552%200.58448%201%201%201h3.5859zm-4.6367%204.5859%204.5859%204.5859v-3.5859c0-0.41552-0.58448-1-1-1z%22%20opacity%3D%22.5%22%20stroke-width%3D%223.7795%22%2F%3E%3C%2Fsvg%3E") !important;
+}
+.inactive .titlebar-container .window-controls-container > .window-close:hover,
+.inactive
+  .titlebar-container
+  .window-controls-container
+  > .window-close:active {
+  background-image: url("data:image/svg+xml,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20version%3D%221.1%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cg%20id%3D%22titlebutton-minimize-backdrop%22%20transform%3D%22translate%28-253%2C268.64%29%22%3E%3Crect%20x%3D%22253%22%20y%3D%22-268.64%22%20width%3D%2216%22%20height%3D%2216%22%20ry%3D%221.6931e-5%22%20opacity%3D%220%22%20stroke-width%3D%22.47432%22%20style%3D%22paint-order%3Amarkers%20stroke%20fill%22%2F%3E%3Cg%20transform%3D%22translate%28254%2C-267.64%29%22%20enable-background%3D%22new%22%3E%3Cg%20transform%3D%22translate%28-5%2C-1033.4%29%22%20fill-rule%3D%22evenodd%22%3E%3Cpath%20d%3D%22m12%201047.4c3.8659%200%206.9999-3.134%206.9999-7s-3.134-7-6.9999-7c-3.866%200-7.0001%203.134-7.0001%207s3.134%207%207.0001%207%22%20fill%3D%22%235d5d5d%22%2F%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fg%3E%3Cpath%20d%3D%22m5.1686%205.0913c-0.39175%200.39171-0.39175%201.0224%200%201.4142l1.4142%201.4142-1.4142%201.4142c-0.39175%200.39178-0.39175%201.0225%200%201.4142%200.39171%200.39182%201.0225%200.39182%201.4142%200l1.4142-1.4142%201.4142%201.4142c0.39171%200.39182%201.0225%200.39182%201.4142%200%200.39174-0.39167%200.39174-1.0224%200-1.4142l-1.4142-1.4142%201.4142-1.4142c0.39174-0.39178%200.39174-1.0225%200-1.4142-0.39171-0.39182-1.0225-0.39182-1.4142%200l-1.4142%201.4142-1.4142-1.4142c-0.39171-0.39182-1.0225-0.39182-1.4142%200z%22%20enable-background%3D%22new%22%20opacity%3D%22.5%22%20stroke-width%3D%223.7795%22%2F%3E%3C%2Fsvg%3E") !important;
 }
