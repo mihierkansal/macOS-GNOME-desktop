@@ -32,6 +32,10 @@ This describes how to make your GNOME desktop look like macOS, with some resourc
 
 Run ./install-desktop.sh in your terminal. Warning, it will log you out of GNOME. If it doesn't apply to some apps, copy the contents of ~/.themes/MacTahoe-Dark-Solid/gtk-4.0 (entire directory contents) into ~/.config/gtk-4.0.
 
+It might ask you for sudo password.
+
+If you open VS Code and it says it's corrupt, just click the Gear and "don't show again".
+
 # Wallpapers
 
 You can get them from ./wallpaper.
