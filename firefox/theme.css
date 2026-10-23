@@ -1,20 +1,23 @@
 #nav-bar .titlebar-close,
 #titlebar .titlebar-close,
 #titlebar #titlebar-close {
-	background: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiI+PHBhdGggZmlsbD0iI2NiNGU0MyIgZD0iTTggMTVBNyA3IDAgMSAwIDggMWE3IDcgMCAwIDAgMCAxNCIvPjxwYXRoIGZpbGw9IiNmZTYyNTQiIGQ9Ik04IDE0LjVhNi41IDYuNSAwIDEgMCAwLTEzIDYuNSA2LjUgMCAwIDAgMCAxMyIvPjwvc3ZnPg==") no-repeat;
-	background-size: contain;
+  background: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiI+PHBhdGggZmlsbD0iI2NiNGU0MyIgZD0iTTggMTVBNyA3IDAgMSAwIDggMWE3IDcgMCAwIDAgMCAxNCIvPjxwYXRoIGZpbGw9IiNmZTYyNTQiIGQ9Ik04IDE0LjVhNi41IDYuNSAwIDEgMCAwLTEzIDYuNSA2LjUgMCAwIDAgMCAxMyIvPjwvc3ZnPg==")
+    no-repeat;
+  background-size: contain;
 }
 #nav-bar .titlebar-max,
 #titlebar .titlebar-max,
 #titlebar #titlebar-max {
-	background: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiI+PGcgZmlsbC1ydWxlPSJldmVub2RkIj48cGF0aCBmaWxsPSIjMjBhOTMyIiBkPSJNOCAxNUE3IDcgMCAxIDAgOCAxYTcgNyAwIDAgMCAwIDE0Ii8+PHBhdGggZmlsbD0iIzI4ZDMzZiIgZD0iTTggMTQuNWE2LjUgNi41IDAgMSAwIDAtMTMgNi41IDYuNSAwIDAgMCAwIDEzIi8+PC9nPjwvc3ZnPg==") no-repeat;
-	background-size: contain;
+  background: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiI+PGcgZmlsbC1ydWxlPSJldmVub2RkIj48cGF0aCBmaWxsPSIjMjBhOTMyIiBkPSJNOCAxNUE3IDcgMCAxIDAgOCAxYTcgNyAwIDAgMCAwIDE0Ii8+PHBhdGggZmlsbD0iIzI4ZDMzZiIgZD0iTTggMTQuNWE2LjUgNi41IDAgMSAwIDAtMTMgNi41IDYuNSAwIDAgMCAwIDEzIi8+PC9nPjwvc3ZnPg==")
+    no-repeat;
+  background-size: contain;
 }
 #nav-bar .titlebar-min,
 #titlebar .titlebar-min,
 #titlebar #titlebar-min {
-	background: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiI+PGcgZmlsbC1ydWxlPSJldmVub2RkIj48cGF0aCBmaWxsPSIjY2FhMTI0IiBkPSJNOCAxNUE3IDcgMCAxIDAgOCAxYTcgNyAwIDAgMCAwIDE0Ii8+PHBhdGggZmlsbD0iI2ZkYzkyZCIgZD0iTTggMTQuNWE2LjUgNi41IDAgMSAwIDAtMTMgNi41IDYuNSAwIDAgMCAwIDEzIi8+PC9nPjwvc3ZnPg==") no-repeat;
-	background-size: contain;
+  background: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiI+PGcgZmlsbC1ydWxlPSJldmVub2RkIj48cGF0aCBmaWxsPSIjY2FhMTI0IiBkPSJNOCAxNUE3IDcgMCAxIDAgOCAxYTcgNyAwIDAgMCAwIDE0Ii8+PHBhdGggZmlsbD0iI2ZkYzkyZCIgZD0iTTggMTQuNWE2LjUgNi41IDAgMSAwIDAtMTMgNi41IDYuNSAwIDAgMCAwIDEzIi8+PC9nPjwvc3ZnPg==")
+    no-repeat;
+  background-size: contain;
 }
 #nav-bar .titlebar-restore,
 #titlebar .titlebar-restore,
@@ -22,26 +25,30 @@
 :root[sizemode="maximized"] #nav-bar .titlebar-max,
 :root[sizemode="maximized"] #titlebar .titlebar-max,
 :root[sizemode="maximized"] #titlebar #titlebar-max {
-	background: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiI+PGcgZmlsbC1ydWxlPSJldmVub2RkIj48cGF0aCBmaWxsPSIjMjBhOTMyIiBkPSJNOCAxNUE3IDcgMCAxIDAgOCAxYTcgNyAwIDAgMCAwIDE0Ii8+PHBhdGggZmlsbD0iIzI4ZDMzZiIgZD0iTTggMTQuNWE2LjUgNi41IDAgMSAwIDAtMTMgNi41IDYuNSAwIDAgMCAwIDEzIi8+PC9nPjwvc3ZnPg==") no-repeat;
-	background-size: contain;
+  background: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiI+PGcgZmlsbC1ydWxlPSJldmVub2RkIj48cGF0aCBmaWxsPSIjMjBhOTMyIiBkPSJNOCAxNUE3IDcgMCAxIDAgOCAxYTcgNyAwIDAgMCAwIDE0Ii8+PHBhdGggZmlsbD0iIzI4ZDMzZiIgZD0iTTggMTQuNWE2LjUgNi41IDAgMSAwIDAtMTMgNi41IDYuNSAwIDAgMCAwIDEzIi8+PC9nPjwvc3ZnPg==")
+    no-repeat;
+  background-size: contain;
 }
 #nav-bar .titlebar-close:hover,
 #titlebar .titlebar-close:hover,
 #titlebar #titlebar-close:hover {
-	background: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiI+PHBhdGggZmlsbD0iI2NiNGU0MyIgZD0iTTggMTUuMDAyYTcgNyAwIDEgMCAwLTE0IDcgNyAwIDAgMCAwIDE0Ii8+PHBhdGggZmlsbD0iI2ZlNjI1NCIgZD0iTTggMTQuNDg4YTYuNSA2LjUgMCAxIDAgMC0xMyA2LjUgNi41IDAgMCAwIDAgMTMiLz48cGF0aCBkPSJNNS4xNjkgNS4wOTFhMSAxIDAgMCAwIDAgMS40MTRMNi41ODMgNy45MiA1LjE2OSA5LjMzNGExIDEgMCAwIDAgMCAxLjQxNCAxIDEgMCAwIDAgMS40MTQgMGwxLjQxNC0xLjQxNCAxLjQxNCAxLjQxNGExIDEgMCAwIDAgMS40MTQgMCAxIDEgMCAwIDAgMC0xLjQxNEw5LjQxMSA3LjkybDEuNDE0LTEuNDE1YTEgMSAwIDAgMCAwLTEuNDE0IDEgMSAwIDAgMC0xLjQxNCAwTDcuOTk3IDYuNTA1IDYuNTgzIDUuMDkxYTEgMSAwIDAgMC0xLjQxNCAwIiBvcGFjaXR5PSIuNSIvPjwvc3ZnPg==") no-repeat;
-	background-size: contain;
+  background: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiI+PHBhdGggZmlsbD0iI2NiNGU0MyIgZD0iTTggMTUuMDAyYTcgNyAwIDEgMCAwLTE0IDcgNyAwIDAgMCAwIDE0Ii8+PHBhdGggZmlsbD0iI2ZlNjI1NCIgZD0iTTggMTQuNDg4YTYuNSA2LjUgMCAxIDAgMC0xMyA2LjUgNi41IDAgMCAwIDAgMTMiLz48cGF0aCBkPSJNNS4xNjkgNS4wOTFhMSAxIDAgMCAwIDAgMS40MTRMNi41ODMgNy45MiA1LjE2OSA5LjMzNGExIDEgMCAwIDAgMCAxLjQxNCAxIDEgMCAwIDAgMS40MTQgMGwxLjQxNC0xLjQxNCAxLjQxNCAxLjQxNGExIDEgMCAwIDAgMS40MTQgMCAxIDEgMCAwIDAgMC0xLjQxNEw5LjQxMSA3LjkybDEuNDE0LTEuNDE1YTEgMSAwIDAgMCAwLTEuNDE0IDEgMSAwIDAgMC0xLjQxNCAwTDcuOTk3IDYuNTA1IDYuNTgzIDUuMDkxYTEgMSAwIDAgMC0xLjQxNCAwIiBvcGFjaXR5PSIuNSIvPjwvc3ZnPg==")
+    no-repeat;
+  background-size: contain;
 }
 #nav-bar .titlebar-max:hover,
 #titlebar .titlebar-max:hover,
 #titlebar #titlebar-max:hover {
-	background: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiI+PGcgZmlsbC1ydWxlPSJldmVub2RkIj48cGF0aCBmaWxsPSIjMjBhOTMyIiBkPSJNOC4wMDIgMTQuOTk5YTcgNyAwIDEgMCAwLTE0IDcgNyAwIDAgMCAwIDE0Ii8+PHBhdGggZmlsbD0iIzI4ZDMzZiIgZD0iTTguMDAyIDE0LjUwN2E2LjUgNi41IDAgMSAwIDAtMTMgNi41IDYuNSAwIDAgMCAwIDEzIi8+PC9nPjxwYXRoIGQ9Im02LjQxIDQuOTggNC41ODcgNC41ODVWNS45OGMwLS40MTUtLjU4NS0xLTEtMXpNNC45OTggNi4zOTJWOS45OGMwIC40MTYuNTg0IDEgMSAxaDMuNTg2eiIgb3BhY2l0eT0iLjUiLz48L3N2Zz4=") no-repeat;
-	background-size: contain;
+  background: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiI+PGcgZmlsbC1ydWxlPSJldmVub2RkIj48cGF0aCBmaWxsPSIjMjBhOTMyIiBkPSJNOC4wMDIgMTQuOTk5YTcgNyAwIDEgMCAwLTE0IDcgNyAwIDAgMCAwIDE0Ii8+PHBhdGggZmlsbD0iIzI4ZDMzZiIgZD0iTTguMDAyIDE0LjUwN2E2LjUgNi41IDAgMSAwIDAtMTMgNi41IDYuNSAwIDAgMCAwIDEzIi8+PC9nPjxwYXRoIGQ9Im02LjQxIDQuOTggNC41ODcgNC41ODVWNS45OGMwLS40MTUtLjU4NS0xLTEtMXpNNC45OTggNi4zOTJWOS45OGMwIC40MTYuNTg0IDEgMSAxaDMuNTg2eiIgb3BhY2l0eT0iLjUiLz48L3N2Zz4=")
+    no-repeat;
+  background-size: contain;
 }
 #nav-bar .titlebar-min:hover,
 #titlebar .titlebar-min:hover,
 #titlebar #titlebar-min:hover {
-	background: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiI+PGcgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTI2NiAtNTg0LjUyKXNjYWxlKDMuNzc5NSkiPjxnIGZpbGwtcnVsZT0iZXZlbm9kZCI+PHBhdGggZmlsbD0iI2NhYTEyNCIgZD0iTTcyLjQ5NiAxNTguNjI1YTEuODUyIDEuODUyIDAgMSAwIDAtMy43MDQgMS44NTIgMS44NTIgMCAwIDAgMCAzLjcwNCIvPjxwYXRoIGZpbGw9IiNmZGM5MmQiIGQ9Ik03Mi40OTYgMTU4LjQ5M2ExLjcyIDEuNzIgMCAxIDAgMC0zLjQ0IDEuNzIgMS43MiAwIDAgMCAwIDMuNDQiLz48L2c+PHJlY3Qgd2lkdGg9IjIuMTE3IiBoZWlnaHQ9Ii41MjkiIHg9IjcxLjQzOCIgeT0iMTU2LjUxIiBvcGFjaXR5PSIuNSIgcnk9Ii4yNjUiLz48L2c+PC9zdmc+") no-repeat;
-	background-size: contain;
+  background: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiI+PGcgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTI2NiAtNTg0LjUyKXNjYWxlKDMuNzc5NSkiPjxnIGZpbGwtcnVsZT0iZXZlbm9kZCI+PHBhdGggZmlsbD0iI2NhYTEyNCIgZD0iTTcyLjQ5NiAxNTguNjI1YTEuODUyIDEuODUyIDAgMSAwIDAtMy43MDQgMS44NTIgMS44NTIgMCAwIDAgMCAzLjcwNCIvPjxwYXRoIGZpbGw9IiNmZGM5MmQiIGQ9Ik03Mi40OTYgMTU4LjQ5M2ExLjcyIDEuNzIgMCAxIDAgMC0zLjQ0IDEuNzIgMS43MiAwIDAgMCAwIDMuNDQiLz48L2c+PHJlY3Qgd2lkdGg9IjIuMTE3IiBoZWlnaHQ9Ii41MjkiIHg9IjcxLjQzOCIgeT0iMTU2LjUxIiBvcGFjaXR5PSIuNSIgcnk9Ii4yNjUiLz48L2c+PC9zdmc+")
+    no-repeat;
+  background-size: contain;
 }
 #nav-bar .titlebar-restore:hover,
 #titlebar .titlebar-restore:hover,
@@ -49,26 +56,30 @@
 :root[sizemode="maximized"] #nav-bar .titlebar-max:hover,
 :root[sizemode="maximized"] #titlebar .titlebar-max:hover,
 :root[sizemode="maximized"] #titlebar #titlebar-max:hover {
-	background: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiI+PGcgZmlsbC1ydWxlPSJldmVub2RkIj48cGF0aCBmaWxsPSIjMjBhOTMyIiBkPSJNOCAxNC45OTlhNyA3IDAgMSAwIDAtMTQgNyA3IDAgMCAwIDAgMTQiLz48cGF0aCBmaWxsPSIjMjhkMzNmIiBkPSJNOCAxNC41MDdhNi41IDYuNSAwIDEgMCAwLTEzIDYuNSA2LjUgMCAwIDAgMCAxMyIvPjwvZz48cGF0aCBkPSJNOC4wMjUgMy40MTRWN2MwIC40MTYuNTg1IDEgMSAxaDMuNTg2ek0zLjM5IDhsNC41ODYgNC41ODZWOWMwLS40MTYtLjU4NS0xLTEtMXoiIG9wYWNpdHk9Ii41Ii8+PC9zdmc+") no-repeat;
-	background-size: contain;
+  background: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiI+PGcgZmlsbC1ydWxlPSJldmVub2RkIj48cGF0aCBmaWxsPSIjMjBhOTMyIiBkPSJNOCAxNC45OTlhNyA3IDAgMSAwIDAtMTQgNyA3IDAgMCAwIDAgMTQiLz48cGF0aCBmaWxsPSIjMjhkMzNmIiBkPSJNOCAxNC41MDdhNi41IDYuNSAwIDEgMCAwLTEzIDYuNSA2LjUgMCAwIDAgMCAxMyIvPjwvZz48cGF0aCBkPSJNOC4wMjUgMy40MTRWN2MwIC40MTYuNTg1IDEgMSAxaDMuNTg2ek0zLjM5IDhsNC41ODYgNC41ODZWOWMwLS40MTYtLjU4NS0xLTEtMXoiIG9wYWNpdHk9Ii41Ii8+PC9zdmc+")
+    no-repeat;
+  background-size: contain;
 }
 #nav-bar .titlebar-close:active,
 #titlebar .titlebar-close:active,
 #titlebar #titlebar-close:active {
-	background: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiI+PHBhdGggZmlsbD0iI2NiNGU0MyIgZD0iTTggMTUuMDAyYTcgNyAwIDEgMCAwLTE0IDcgNyAwIDAgMCAwIDE0IiBzdHlsZT0iZmlsbC1ydWxlOmV2ZW5vZGQiLz48cGF0aCBmaWxsPSIjZmU2MjU0IiBkPSJNOCAxNC40ODhhNi41IDYuNSAwIDEgMCAwLTEzIDYuNSA2LjUgMCAwIDAgMCAxMyIgc3R5bGU9ImZpbGw6I2NiNGU0MztmaWxsLW9wYWNpdHk6MTtmaWxsLXJ1bGU6ZXZlbm9kZCIvPjxwYXRoIGQ9Ik01LjE2OSA1LjA5MWExIDEgMCAwIDAgMCAxLjQxNEw2LjU4MyA3LjkyIDUuMTY5IDkuMzM0YTEgMSAwIDAgMCAwIDEuNDE0IDEgMSAwIDAgMCAxLjQxNCAwbDEuNDE0LTEuNDE0IDEuNDE0IDEuNDE0YTEgMSAwIDAgMCAxLjQxNCAwIDEgMSAwIDAgMCAwLTEuNDE0TDkuNDExIDcuOTJsMS40MTQtMS40MTVhMSAxIDAgMCAwIDAtMS40MTQgMSAxIDAgMCAwLTEuNDE0IDBMNy45OTcgNi41MDUgNi41ODMgNS4wOTFhMSAxIDAgMCAwLTEuNDE0IDAiIG9wYWNpdHk9Ii41IiBzdHlsZT0ic3Ryb2tlLXdpZHRoOjMuNzc5NSIvPjwvc3ZnPg==") no-repeat;
-	background-size: contain;
+  background: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiI+PHBhdGggZmlsbD0iI2NiNGU0MyIgZD0iTTggMTUuMDAyYTcgNyAwIDEgMCAwLTE0IDcgNyAwIDAgMCAwIDE0IiBzdHlsZT0iZmlsbC1ydWxlOmV2ZW5vZGQiLz48cGF0aCBmaWxsPSIjZmU2MjU0IiBkPSJNOCAxNC40ODhhNi41IDYuNSAwIDEgMCAwLTEzIDYuNSA2LjUgMCAwIDAgMCAxMyIgc3R5bGU9ImZpbGw6I2NiNGU0MztmaWxsLW9wYWNpdHk6MTtmaWxsLXJ1bGU6ZXZlbm9kZCIvPjxwYXRoIGQ9Ik01LjE2OSA1LjA5MWExIDEgMCAwIDAgMCAxLjQxNEw2LjU4MyA3LjkyIDUuMTY5IDkuMzM0YTEgMSAwIDAgMCAwIDEuNDE0IDEgMSAwIDAgMCAxLjQxNCAwbDEuNDE0LTEuNDE0IDEuNDE0IDEuNDE0YTEgMSAwIDAgMCAxLjQxNCAwIDEgMSAwIDAgMCAwLTEuNDE0TDkuNDExIDcuOTJsMS40MTQtMS40MTVhMSAxIDAgMCAwIDAtMS40MTQgMSAxIDAgMCAwLTEuNDE0IDBMNy45OTcgNi41MDUgNi41ODMgNS4wOTFhMSAxIDAgMCAwLTEuNDE0IDAiIG9wYWNpdHk9Ii41IiBzdHlsZT0ic3Ryb2tlLXdpZHRoOjMuNzc5NSIvPjwvc3ZnPg==")
+    no-repeat;
+  background-size: contain;
 }
 #nav-bar .titlebar-max:active,
 #titlebar .titlebar-max:active,
 #titlebar #titlebar-max:active {
-	background: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiI+PHBhdGggZmlsbD0iIzIwYTkzMiIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNOC4wMDIgMTQuOTk5YTcgNyAwIDEgMCAwLTE0IDcgNyAwIDAgMCAwIDE0Ii8+PHBhdGggZD0ibTYuNDEgNC45OCA0LjU4NyA0LjU4NVY1Ljk4YzAtLjQxNS0uNTg1LTEtMS0xek00Ljk5OCA2LjM5MlY5Ljk4YzAgLjQxNi41ODQgMSAxIDFoMy41ODZ6IiBvcGFjaXR5PSIuNSIvPjwvc3ZnPg==") no-repeat;
-	background-size: contain;
+  background: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiI+PHBhdGggZmlsbD0iIzIwYTkzMiIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNOC4wMDIgMTQuOTk5YTcgNyAwIDEgMCAwLTE0IDcgNyAwIDAgMCAwIDE0Ii8+PHBhdGggZD0ibTYuNDEgNC45OCA0LjU4NyA0LjU4NVY1Ljk4YzAtLjQxNS0uNTg1LTEtMS0xek00Ljk5OCA2LjM5MlY5Ljk4YzAgLjQxNi41ODQgMSAxIDFoMy41ODZ6IiBvcGFjaXR5PSIuNSIvPjwvc3ZnPg==")
+    no-repeat;
+  background-size: contain;
 }
 #nav-bar .titlebar-min:active,
 #titlebar .titlebar-min:active,
 #titlebar #titlebar-min:active {
-	background: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiI+PHBhdGggZmlsbD0iI2NhYTEyNCIgZD0iTTggMTVBNyA3IDAgMSAwIDggMWE3IDcgMCAwIDAgMCAxNCIgc3R5bGU9ImZpbGwtcnVsZTpldmVub2RkIi8+PHJlY3Qgd2lkdGg9IjgiIGhlaWdodD0iMiIgeD0iMy45OTgiIHk9IjYuOTkyIiBvcGFjaXR5PSIuNSIgcnk9IjEiIHN0eWxlPSJzdHJva2Utd2lkdGg6My43Nzk1Ii8+PC9zdmc+") no-repeat;
-	background-size: contain;
+  background: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiI+PHBhdGggZmlsbD0iI2NhYTEyNCIgZD0iTTggMTVBNyA3IDAgMSAwIDggMWE3IDcgMCAwIDAgMCAxNCIgc3R5bGU9ImZpbGwtcnVsZTpldmVub2RkIi8+PHJlY3Qgd2lkdGg9IjgiIGhlaWdodD0iMiIgeD0iMy45OTgiIHk9IjYuOTkyIiBvcGFjaXR5PSIuNSIgcnk9IjEiIHN0eWxlPSJzdHJva2Utd2lkdGg6My43Nzk1Ii8+PC9zdmc+")
+    no-repeat;
+  background-size: contain;
 }
 #nav-bar .titlebar-restore:active,
 #titlebar .titlebar-restore:active,
@@ -76,26 +87,30 @@
 :root[sizemode="maximized"] #nav-bar .titlebar-max:active,
 :root[sizemode="maximized"] #titlebar .titlebar-max:active,
 :root[sizemode="maximized"] #titlebar #titlebar-max:active {
-	background: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiI+PHBhdGggZmlsbD0iIzIwYTkzMiIgZD0iTTggMTVBNyA3IDAgMSAwIDggMWE3IDcgMCAwIDAgMCAxNCIgc3R5bGU9ImZpbGwtcnVsZTpldmVub2RkIi8+PHBhdGggZD0iTTguMDI1IDMuNDE0VjdjMCAuNDE2LjU4NSAxIDEgMWgzLjU4NnpNMy4zOSA4bDQuNTg2IDQuNTg2VjljMC0uNDE2LS41ODUtMS0xLTF6IiBvcGFjaXR5PSIuNSIvPjwvc3ZnPg==") no-repeat;
-	background-size: contain;
+  background: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiI+PHBhdGggZmlsbD0iIzIwYTkzMiIgZD0iTTggMTVBNyA3IDAgMSAwIDggMWE3IDcgMCAwIDAgMCAxNCIgc3R5bGU9ImZpbGwtcnVsZTpldmVub2RkIi8+PHBhdGggZD0iTTguMDI1IDMuNDE0VjdjMCAuNDE2LjU4NSAxIDEgMWgzLjU4NnpNMy4zOSA4bDQuNTg2IDQuNTg2VjljMC0uNDE2LS41ODUtMS0xLTF6IiBvcGFjaXR5PSIuNSIvPjwvc3ZnPg==")
+    no-repeat;
+  background-size: contain;
 }
 #nav-bar:-moz-window-inactive .titlebar-close,
 #titlebar:-moz-window-inactive .titlebar-close,
 #titlebar:-moz-window-inactive #titlebar-close {
-	background: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiI+PGcgZmlsbC1ydWxlPSJldmVub2RkIj48cGF0aCBmaWxsPSIjYmFiYWJhIiBkPSJNOCAxNUE3IDcgMCAxIDAgOCAxYTcgNyAwIDAgMCAwIDE0Ii8+PHBhdGggZmlsbD0iI2NlY2VjZSIgZD0iTTggMTQuNWE2LjUgNi41IDAgMSAwIDAtMTMgNi41IDYuNSAwIDAgMCAwIDEzIi8+PC9nPjwvc3ZnPg==") no-repeat;
-	background-size: contain;
+  background: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiI+PGcgZmlsbC1ydWxlPSJldmVub2RkIj48cGF0aCBmaWxsPSIjYmFiYWJhIiBkPSJNOCAxNUE3IDcgMCAxIDAgOCAxYTcgNyAwIDAgMCAwIDE0Ii8+PHBhdGggZmlsbD0iI2NlY2VjZSIgZD0iTTggMTQuNWE2LjUgNi41IDAgMSAwIDAtMTMgNi41IDYuNSAwIDAgMCAwIDEzIi8+PC9nPjwvc3ZnPg==")
+    no-repeat;
+  background-size: contain;
 }
 #nav-bar:-moz-window-inactive .titlebar-max,
 #titlebar:-moz-window-inactive .titlebar-max,
 #titlebar:-moz-window-inactive #titlebar-max {
-	background: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiI+PGcgZmlsbC1ydWxlPSJldmVub2RkIj48cGF0aCBmaWxsPSIjYmFiYWJhIiBkPSJNOCAxNUE3IDcgMCAxIDAgOCAxYTcgNyAwIDAgMCAwIDE0Ii8+PHBhdGggZmlsbD0iI2NlY2VjZSIgZD0iTTggMTQuNWE2LjUgNi41IDAgMSAwIDAtMTMgNi41IDYuNSAwIDAgMCAwIDEzIi8+PC9nPjwvc3ZnPg==") no-repeat;
-	background-size: contain;
+  background: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiI+PGcgZmlsbC1ydWxlPSJldmVub2RkIj48cGF0aCBmaWxsPSIjYmFiYWJhIiBkPSJNOCAxNUE3IDcgMCAxIDAgOCAxYTcgNyAwIDAgMCAwIDE0Ii8+PHBhdGggZmlsbD0iI2NlY2VjZSIgZD0iTTggMTQuNWE2LjUgNi41IDAgMSAwIDAtMTMgNi41IDYuNSAwIDAgMCAwIDEzIi8+PC9nPjwvc3ZnPg==")
+    no-repeat;
+  background-size: contain;
 }
 #nav-bar:-moz-window-inactive .titlebar-min,
 #titlebar:-moz-window-inactive .titlebar-min,
 #titlebar:-moz-window-inactive #titlebar-min {
-	background: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiI+PGcgZmlsbC1ydWxlPSJldmVub2RkIj48cGF0aCBmaWxsPSIjYmFiYWJhIiBkPSJNOCAxNUE3IDcgMCAxIDAgOCAxYTcgNyAwIDAgMCAwIDE0Ii8+PHBhdGggZmlsbD0iI2NlY2VjZSIgZD0iTTggMTQuNWE2LjUgNi41IDAgMSAwIDAtMTMgNi41IDYuNSAwIDAgMCAwIDEzIi8+PC9nPjwvc3ZnPg==") no-repeat;
-	background-size: contain;
+  background: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiI+PGcgZmlsbC1ydWxlPSJldmVub2RkIj48cGF0aCBmaWxsPSIjYmFiYWJhIiBkPSJNOCAxNUE3IDcgMCAxIDAgOCAxYTcgNyAwIDAgMCAwIDE0Ii8+PHBhdGggZmlsbD0iI2NlY2VjZSIgZD0iTTggMTQuNWE2LjUgNi41IDAgMSAwIDAtMTMgNi41IDYuNSAwIDAgMCAwIDEzIi8+PC9nPjwvc3ZnPg==")
+    no-repeat;
+  background-size: contain;
 }
 #nav-bar:-moz-window-inactive .titlebar-restore,
 #titlebar:-moz-window-inactive .titlebar-restore,
@@ -103,26 +118,30 @@
 :root[sizemode="maximized"] #nav-bar:-moz-window-inactive .titlebar-max,
 :root[sizemode="maximized"] #titlebar:-moz-window-inactive .titlebar-max,
 :root[sizemode="maximized"] #titlebar:-moz-window-inactive #titlebar-max {
-	background: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiI+PGcgZmlsbC1ydWxlPSJldmVub2RkIj48cGF0aCBmaWxsPSIjYmFiYWJhIiBkPSJNOCAxNUE3IDcgMCAxIDAgOCAxYTcgNyAwIDAgMCAwIDE0Ii8+PHBhdGggZmlsbD0iI2NlY2VjZSIgZD0iTTggMTQuNWE2LjUgNi41IDAgMSAwIDAtMTMgNi41IDYuNSAwIDAgMCAwIDEzIi8+PC9nPjwvc3ZnPg==") no-repeat;
-	background-size: contain;
+  background: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiI+PGcgZmlsbC1ydWxlPSJldmVub2RkIj48cGF0aCBmaWxsPSIjYmFiYWJhIiBkPSJNOCAxNUE3IDcgMCAxIDAgOCAxYTcgNyAwIDAgMCAwIDE0Ii8+PHBhdGggZmlsbD0iI2NlY2VjZSIgZD0iTTggMTQuNWE2LjUgNi41IDAgMSAwIDAtMTMgNi41IDYuNSAwIDAgMCAwIDEzIi8+PC9nPjwvc3ZnPg==")
+    no-repeat;
+  background-size: contain;
 }
 #nav-bar:-moz-window-inactive .titlebar-close:hover,
 #titlebar:-moz-window-inactive .titlebar-close:hover,
 #titlebar:-moz-window-inactive #titlebar-close:hover {
-	background: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiI+PGcgZmlsbC1ydWxlPSJldmVub2RkIj48cGF0aCBmaWxsPSIjYmFiYWJhIiBkPSJNOCAxNUE3IDcgMCAxIDAgOCAxYTcgNyAwIDAgMCAwIDE0Ii8+PHBhdGggZmlsbD0iI2NlY2VjZSIgZD0iTTggMTQuNWE2LjUgNi41IDAgMSAwIDAtMTMgNi41IDYuNSAwIDAgMCAwIDEzIi8+PC9nPjxwYXRoIGQ9Ik01LjE2OSA1LjA5MWExIDEgMCAwIDAgMCAxLjQxNUw2LjU4MyA3LjkyIDUuMTY5IDkuMzM0YTEgMSAwIDAgMCAwIDEuNDE0IDEgMSAwIDAgMCAxLjQxNCAwbDEuNDE0LTEuNDE0IDEuNDE0IDEuNDE0YTEgMSAwIDAgMCAxLjQxNCAwIDEgMSAwIDAgMCAwLTEuNDE0TDkuNDExIDcuOTJsMS40MTQtMS40MTRhMSAxIDAgMCAwIDAtMS40MTUgMSAxIDAgMCAwLTEuNDE0IDBMNy45OTcgNi41MDUgNi41ODMgNS4wOTJhMSAxIDAgMCAwLTEuNDE0IDAiIG9wYWNpdHk9Ii41Ii8+PC9zdmc+") no-repeat;
-	background-size: contain;
+  background: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiI+PGcgZmlsbC1ydWxlPSJldmVub2RkIj48cGF0aCBmaWxsPSIjYmFiYWJhIiBkPSJNOCAxNUE3IDcgMCAxIDAgOCAxYTcgNyAwIDAgMCAwIDE0Ii8+PHBhdGggZmlsbD0iI2NlY2VjZSIgZD0iTTggMTQuNWE2LjUgNi41IDAgMSAwIDAtMTMgNi41IDYuNSAwIDAgMCAwIDEzIi8+PC9nPjxwYXRoIGQ9Ik01LjE2OSA1LjA5MWExIDEgMCAwIDAgMCAxLjQxNUw2LjU4MyA3LjkyIDUuMTY5IDkuMzM0YTEgMSAwIDAgMCAwIDEuNDE0IDEgMSAwIDAgMCAxLjQxNCAwbDEuNDE0LTEuNDE0IDEuNDE0IDEuNDE0YTEgMSAwIDAgMCAxLjQxNCAwIDEgMSAwIDAgMCAwLTEuNDE0TDkuNDExIDcuOTJsMS40MTQtMS40MTRhMSAxIDAgMCAwIDAtMS40MTUgMSAxIDAgMCAwLTEuNDE0IDBMNy45OTcgNi41MDUgNi41ODMgNS4wOTJhMSAxIDAgMCAwLTEuNDE0IDAiIG9wYWNpdHk9Ii41Ii8+PC9zdmc+")
+    no-repeat;
+  background-size: contain;
 }
 #nav-bar:-moz-window-inactive .titlebar-max:hover,
 #titlebar:-moz-window-inactive .titlebar-max:hover,
 #titlebar:-moz-window-inactive #titlebar-max:hover {
-	background: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiI+PGcgZmlsbC1ydWxlPSJldmVub2RkIj48cGF0aCBmaWxsPSIjYmFiYWJhIiBkPSJNOCAxNUE3IDcgMCAxIDAgOCAxYTcgNyAwIDAgMCAwIDE0Ii8+PHBhdGggZmlsbD0iI2NlY2VjZSIgZD0iTTggMTQuNWE2LjUgNi41IDAgMSAwIDAtMTMgNi41IDYuNSAwIDAgMCAwIDEzIi8+PC9nPjxwYXRoIGQ9Im02LjQxMyA0Ljk5NSA0LjU4NiA0LjU4NlY1Ljk5NWMwLS40MTUtLjU4NS0xLTEtMXpNNC45OTkgNi40MXYzLjU4NmMwIC40MTYuNTg0IDEgMSAxaDMuNTg2eiIgb3BhY2l0eT0iLjUiLz48L3N2Zz4=") no-repeat;
-	background-size: contain;
+  background: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiI+PGcgZmlsbC1ydWxlPSJldmVub2RkIj48cGF0aCBmaWxsPSIjYmFiYWJhIiBkPSJNOCAxNUE3IDcgMCAxIDAgOCAxYTcgNyAwIDAgMCAwIDE0Ii8+PHBhdGggZmlsbD0iI2NlY2VjZSIgZD0iTTggMTQuNWE2LjUgNi41IDAgMSAwIDAtMTMgNi41IDYuNSAwIDAgMCAwIDEzIi8+PC9nPjxwYXRoIGQ9Im02LjQxMyA0Ljk5NSA0LjU4NiA0LjU4NlY1Ljk5NWMwLS40MTUtLjU4NS0xLTEtMXpNNC45OTkgNi40MXYzLjU4NmMwIC40MTYuNTg0IDEgMSAxaDMuNTg2eiIgb3BhY2l0eT0iLjUiLz48L3N2Zz4=")
+    no-repeat;
+  background-size: contain;
 }
 #nav-bar:-moz-window-inactive .titlebar-min:hover,
 #titlebar:-moz-window-inactive .titlebar-min:hover,
 #titlebar:-moz-window-inactive #titlebar-min:hover {
-	background: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiI+PGcgZmlsbC1ydWxlPSJldmVub2RkIj48cGF0aCBmaWxsPSIjYmFiYWJhIiBkPSJNOCAxNUE3IDcgMCAxIDAgOCAxYTcgNyAwIDAgMCAwIDE0Ii8+PHBhdGggZmlsbD0iI2NlY2VjZSIgZD0iTTggMTQuNWE2LjUgNi41IDAgMSAwIDAtMTMgNi41IDYuNSAwIDAgMCAwIDEzIi8+PC9nPjxyZWN0IHdpZHRoPSI4IiBoZWlnaHQ9IjIiIHg9IjMuOTk4IiB5PSI2Ljk5MiIgb3BhY2l0eT0iLjUiIHJ5PSIxIi8+PC9zdmc+") no-repeat;
-	background-size: contain;
+  background: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiI+PGcgZmlsbC1ydWxlPSJldmVub2RkIj48cGF0aCBmaWxsPSIjYmFiYWJhIiBkPSJNOCAxNUE3IDcgMCAxIDAgOCAxYTcgNyAwIDAgMCAwIDE0Ii8+PHBhdGggZmlsbD0iI2NlY2VjZSIgZD0iTTggMTQuNWE2LjUgNi41IDAgMSAwIDAtMTMgNi41IDYuNSAwIDAgMCAwIDEzIi8+PC9nPjxyZWN0IHdpZHRoPSI4IiBoZWlnaHQ9IjIiIHg9IjMuOTk4IiB5PSI2Ljk5MiIgb3BhY2l0eT0iLjUiIHJ5PSIxIi8+PC9zdmc+")
+    no-repeat;
+  background-size: contain;
 }
 #nav-bar:-moz-window-inactive .titlebar-restore:hover,
 #titlebar:-moz-window-inactive .titlebar-restore:hover,
@@ -130,205 +149,292 @@
 :root[sizemode="maximized"] #nav-bar:-moz-window-inactive .titlebar-max:hover,
 :root[sizemode="maximized"] #titlebar:-moz-window-inactive .titlebar-max:hover,
 :root[sizemode="maximized"] #titlebar:-moz-window-inactive #titlebar-max:hover {
-	background: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiI+PGcgZmlsbC1ydWxlPSJldmVub2RkIj48cGF0aCBmaWxsPSIjYmFiYWJhIiBkPSJNOCAxNUE3IDcgMCAxIDAgOCAxYTcgNyAwIDAgMCAwIDE0Ii8+PHBhdGggZmlsbD0iI2NlY2VjZSIgZD0iTTggMTQuNWE2LjUgNi41IDAgMSAwIDAtMTMgNi41IDYuNSAwIDAgMCAwIDEzIi8+PC9nPjxwYXRoIGQ9Ik04LjAyNSAzLjQxNFY3YzAgLjQxNi41ODUgMSAxIDFoMy41ODZ6TTMuMzkgOGw0LjU4NiA0LjU4NlY5YzAtLjQxNi0uNTg1LTEtMS0xeiIgb3BhY2l0eT0iLjUiLz48L3N2Zz4=") no-repeat;
-	background-size: contain;
+  background: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiI+PGcgZmlsbC1ydWxlPSJldmVub2RkIj48cGF0aCBmaWxsPSIjYmFiYWJhIiBkPSJNOCAxNUE3IDcgMCAxIDAgOCAxYTcgNyAwIDAgMCAwIDE0Ii8+PHBhdGggZmlsbD0iI2NlY2VjZSIgZD0iTTggMTQuNWE2LjUgNi41IDAgMSAwIDAtMTMgNi41IDYuNSAwIDAgMCAwIDEzIi8+PC9nPjxwYXRoIGQ9Ik04LjAyNSAzLjQxNFY3YzAgLjQxNi41ODUgMSAxIDFoMy41ODZ6TTMuMzkgOGw0LjU4NiA0LjU4NlY5YzAtLjQxNi0uNTg1LTEtMS0xeiIgb3BhY2l0eT0iLjUiLz48L3N2Zz4=")
+    no-repeat;
+  background-size: contain;
+}
+
+/* Dark mode unfocused window buttons, matching Vivaldi's .theme-dark.isblurred */
+@media (prefers-color-scheme: dark) {
+  #nav-bar:-moz-window-inactive .titlebar-close,
+  #titlebar:-moz-window-inactive .titlebar-close,
+  #titlebar:-moz-window-inactive #titlebar-close {
+    background: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiI+PGcgZmlsbC1ydWxlPSJldmVub2RkIj48cGF0aCBmaWxsPSIjNWQ1ZDVkIiBkPSJNOCAxNUE3IDcgMCAxIDAgOCAxYTcgNyAwIDAgMCAwIDE0Ii8+PC9nPjwvc3ZnPg==")
+      no-repeat;
+    background-size: contain;
+  }
+  #nav-bar:-moz-window-inactive .titlebar-max,
+  #titlebar:-moz-window-inactive .titlebar-max,
+  #titlebar:-moz-window-inactive #titlebar-max {
+    background: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiI+PGcgZmlsbC1ydWxlPSJldmVub2RkIj48cGF0aCBmaWxsPSIjNWQ1ZDVkIiBkPSJNOCAxNUE3IDcgMCAxIDAgOCAxYTcgNyAwIDAgMCAwIDE0Ii8+PC9nPjwvc3ZnPg==")
+      no-repeat;
+    background-size: contain;
+  }
+  #nav-bar:-moz-window-inactive .titlebar-min,
+  #titlebar:-moz-window-inactive .titlebar-min,
+  #titlebar:-moz-window-inactive #titlebar-min {
+    background: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiI+PGcgZmlsbC1ydWxlPSJldmVub2RkIj48cGF0aCBmaWxsPSIjNWQ1ZDVkIiBkPSJNOCAxNUE3IDcgMCAxIDAgOCAxYTcgNyAwIDAgMCAwIDE0Ii8+PC9nPjwvc3ZnPg==")
+      no-repeat;
+    background-size: contain;
+  }
+  #nav-bar:-moz-window-inactive .titlebar-restore,
+  #titlebar:-moz-window-inactive .titlebar-restore,
+  #titlebar:-moz-window-inactive #titlebar-restore,
+  :root[sizemode="maximized"] #nav-bar:-moz-window-inactive .titlebar-max,
+  :root[sizemode="maximized"] #titlebar:-moz-window-inactive .titlebar-max,
+  :root[sizemode="maximized"] #titlebar:-moz-window-inactive #titlebar-max {
+    background: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiI+PGcgZmlsbC1ydWxlPSJldmVub2RkIj48cGF0aCBmaWxsPSIjNWQ1ZDVkIiBkPSJNOCAxNUE3IDcgMCAxIDAgOCAxYTcgNyAwIDAgMCAwIDE0Ii8+PC9nPjwvc3ZnPg==")
+      no-repeat;
+    background-size: contain;
+  }
+  #nav-bar:-moz-window-inactive .titlebar-close:hover,
+  #titlebar:-moz-window-inactive .titlebar-close:hover,
+  #titlebar:-moz-window-inactive #titlebar-close:hover {
+    background: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiI+PGcgZmlsbC1ydWxlPSJldmVub2RkIj48cGF0aCBmaWxsPSIjNWQ1ZDVkIiBkPSJNOCAxNUE3IDcgMCAxIDAgOCAxYTcgNyAwIDAgMCAwIDE0Ii8+PC9nPjxwYXRoIGQ9Ik01LjE2OSA1LjA5MWExIDEgMCAwIDAgMCAxLjQxNUw2LjU4MyA3LjkyIDUuMTY5IDkuMzM0YTEgMSAwIDAgMCAwIDEuNDE0IDEgMSAwIDAgMCAxLjQxNCAwbDEuNDE0LTEuNDE0IDEuNDE0IDEuNDE0YTEgMSAwIDAgMCAxLjQxNCAwIDEgMSAwIDAgMCAwLTEuNDE0TDkuNDExIDcuOTJsMS40MTQtMS40MTRhMSAxIDAgMCAwIDAtMS40MTUgMSAxIDAgMCAwLTEuNDE0IDBMNy45OTcgNi41MDUgNi41ODMgNS4wOTJhMSAxIDAgMCAwLTEuNDE0IDAiIG9wYWNpdHk9Ii41Ii8+PC9zdmc+")
+      no-repeat;
+    background-size: contain;
+  }
+  #nav-bar:-moz-window-inactive .titlebar-max:hover,
+  #titlebar:-moz-window-inactive .titlebar-max:hover,
+  #titlebar:-moz-window-inactive #titlebar-max:hover {
+    background: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiI+PGcgZmlsbC1ydWxlPSJldmVub2RkIj48cGF0aCBmaWxsPSIjNWQ1ZDVkIiBkPSJNOCAxNUE3IDcgMCAxIDAgOCAxYTcgNyAwIDAgMCAwIDE0Ii8+PC9nPjxwYXRoIGQ9Im02LjQxMyA0Ljk5NSA0LjU4NiA0LjU4NlY1Ljk5NWMwLS40MTUtLjU4NS0xLTEtMXpNNC45OTkgNi40MXYzLjU4NmMwIC40MTYuNTg0IDEgMSAxaDMuNTg2eiIgb3BhY2l0eT0iLjUiLz48L3N2Zz4=")
+      no-repeat;
+    background-size: contain;
+  }
+  #nav-bar:-moz-window-inactive .titlebar-min:hover,
+  #titlebar:-moz-window-inactive .titlebar-min:hover,
+  #titlebar:-moz-window-inactive #titlebar-min:hover {
+    background: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiI+PGcgZmlsbC1ydWxlPSJldmVub2RkIj48cGF0aCBmaWxsPSIjNWQ1ZDVkIiBkPSJNOCAxNUE3IDcgMCAxIDAgOCAxYTcgNyAwIDAgMCAwIDE0Ii8+PC9nPjxyZWN0IHdpZHRoPSI4IiBoZWlnaHQ9IjIiIHg9IjMuOTk4IiB5PSI2Ljk5MiIgb3BhY2l0eT0iLjUiIHJ5PSIxIi8+PC9zdmc+")
+      no-repeat;
+    background-size: contain;
+  }
+  #nav-bar:-moz-window-inactive .titlebar-restore:hover,
+  #titlebar:-moz-window-inactive .titlebar-restore:hover,
+  #titlebar:-moz-window-inactive #titlebar-restore:hover,
+  :root[sizemode="maximized"] #nav-bar:-moz-window-inactive .titlebar-max:hover,
+  :root[sizemode="maximized"]
+    #titlebar:-moz-window-inactive
+    .titlebar-max:hover,
+  :root[sizemode="maximized"]
+    #titlebar:-moz-window-inactive
+    #titlebar-max:hover {
+    background: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiI+PGcgZmlsbC1ydWxlPSJldmVub2RkIj48cGF0aCBmaWxsPSIjNWQ1ZDVkIiBkPSJNOCAxNUE3IDcgMCAxIDAgOCAxYTcgNyAwIDAgMCAwIDE0Ii8+PC9nPjxwYXRoIGQ9Ik04LjAyNSAzLjQxNFY3YzAgLjQxNi41ODUgMSAxIDFoMy41ODZ6TTMuMzkgOGw0LjU4NiA0LjU4NlY5YzAtLjQxNi0uNTg1LTEtMS0xeiIgb3BhY2l0eT0iLjUiLz48L3N2Zz4=")
+      no-repeat;
+    background-size: contain;
+  }
 }
 
 @namespace xul "http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul";
- 
 
 @namespace xul url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul");
 
- 
-
-
-#toolbar-menubar, #TabsToolbar {
-	/* Always hide menu bar window buttons*/
-	& > .titlebar-buttonbox-container {
-		display: none !important;
-	}
+#toolbar-menubar,
+#TabsToolbar {
+  /* Always hide menu bar window buttons*/
+  & > .titlebar-buttonbox-container {
+    display: none !important;
+  }
 }
 
-#nav-bar, #titlebar {
-	/* Window buttons box */
-	.titlebar-buttonbox-container,
-	#titlebar-buttonbox-container {
-		-moz-appearance: none !important;
-		padding: 0 3px 0 4px;
-		position: fixed !important;
-		right: 8px;
-		top: 0;
-		display: block !important;
-	}
+#nav-bar,
+#titlebar {
+  /* Window buttons box */
+  .titlebar-buttonbox-container,
+  #titlebar-buttonbox-container {
+    -moz-appearance: none !important;
+    padding: 0 3px 0 4px;
+    position: fixed !important;
+    right: 8px;
+    top: 0;
+    display: block !important;
+  }
 
-	.titlebar-buttonbox {
-		-moz-appearance: none !important;
-	}
+  .titlebar-buttonbox {
+    -moz-appearance: none !important;
+  }
 
-	/* Window buttons style */
- .titlebar-button {
-		-moz-appearance: none !important;
-		border: none !important;
-		border-radius: 100px !important;
-		height: 16px;
-		width: 16px;
-	
-		background-size: 16px 16px;
-		--inactive-titlebar-opacity: 1 !important; 
-			margin: 16px 4px !important;
-		padding: 2px 0 !important;
-		}
+  /* Window buttons style */
+  .titlebar-button {
+    -moz-appearance: none !important;
+    border: none !important;
+    border-radius: 100px !important;
+    height: 16px;
+    width: 16px;
 
-	&, &:-moz-window-inactive {
-		.titlebar-button .toolbarbutton-icon {
-			opacity: 0 !important;
-			appearance: none !important;
-		}
+    background-size: 16px 16px;
+    --inactive-titlebar-opacity: 1 !important;
+    margin: 16px 4px !important;
+    padding: 2px 0 !important;
+  }
 
-		.titlebar-button[disabled="true"] {
-			opacity: 0.35 !important;
-		}
-	}
+  &,
+  &:-moz-window-inactive {
+    .titlebar-button .toolbarbutton-icon {
+      opacity: 0 !important;
+      appearance: none !important;
+    }
+
+    .titlebar-button[disabled="true"] {
+      opacity: 0.35 !important;
+    }
+  }
 }
 
-	
-*:has(#vertical-tabs #tabbrowser-tabs) #nav-bar { 
+*:has(#vertical-tabs #tabbrowser-tabs) #nav-bar {
   padding-left: 90px !important;
 }
 
- 
-*:has(#vertical-tabs #tabbrowser-tabs) 	.titlebar-buttonbox  	.titlebar-button  {
-  margin: 12px 4px !important; 
-}  
+*:has(#vertical-tabs #tabbrowser-tabs) .titlebar-buttonbox .titlebar-button {
+  margin: 12px 4px !important;
+}
 /* Fullscreen headerbar */
 &:root[inFullscreen] {
-	/* Fullscreen headerbar padding for 1 button */
-	#TabsToolbar {
-		padding-right: 50px !important;
-	}
+  /* Fullscreen headerbar padding for 1 button */
+  #TabsToolbar {
+    padding-right: 50px !important;
+  }
 
-	#nav-bar .titlebar-button,
-	#titlebar .titlebar-button {
-		height: 24px;
-		width: 24px;
-		margin: 12px 4px !important;
-		padding: 0 !important;
-	}
+  #nav-bar .titlebar-button,
+  #titlebar .titlebar-button {
+    height: 24px;
+    width: 24px;
+    margin: 12px 4px !important;
+    padding: 0 !important;
+  }
 
-	/* Remove close and minimize buttons from fullscreen buttons */
-	#window-controls #close-button,
-	#window-controls #minimize-button,
-	#titlebar .titlebar-buttonbox .titlebar-close,
-	#titlebar .titlebar-buttonbox .titlebar-min,
-	#nav-bar .titlebar-buttonbox .titlebar-close,
-	#nav-bar .titlebar-buttonbox .titlebar-min {
-		display: none !important;
-	}
+  /* Remove close and minimize buttons from fullscreen buttons */
+  #window-controls #close-button,
+  #window-controls #minimize-button,
+  #titlebar .titlebar-buttonbox .titlebar-close,
+  #titlebar .titlebar-buttonbox .titlebar-min,
+  #nav-bar .titlebar-buttonbox .titlebar-close,
+  #nav-bar .titlebar-buttonbox .titlebar-min {
+    display: none !important;
+  }
 }
-}
-
 
 /* Window buttons: at least 1 button */
-@media (-moz-gtk-csd-minimize-button), (-moz-gtk-csd-maximize-button), (-moz-gtk-csd-close-button) {
-:root[tabsintitlebar], :root[customtitlebar] {
-	&:root:not([inFullscreen]) #TabsToolbar {
-		padding-right: 50px !important;
-	}
-}
+@media (-moz-gtk-csd-minimize-button),
+  (-moz-gtk-csd-maximize-button),
+  (-moz-gtk-csd-close-button) {
+  :root[tabsintitlebar],
+  :root[customtitlebar] {
+    &:root:not([inFullscreen]) #TabsToolbar {
+      padding-right: 50px !important;
+    }
+  }
 }
 /* Window buttons: at least 2 buttons */
 @media (-moz-gtk-csd-minimize-button) and (-moz-gtk-csd-maximize-button),
-       (-moz-gtk-csd-minimize-button) and (-moz-gtk-csd-close-button),
-       (-moz-gtk-csd-maximize-button) and (-moz-gtk-csd-close-button) {
-       :root[tabsintitlebar], :root[customtitlebar] {
-	&:root:not([inFullscreen]) #TabsToolbar {
-		padding-right: 70px !important;
-	}
-	}
+  (-moz-gtk-csd-minimize-button) and (-moz-gtk-csd-close-button),
+  (-moz-gtk-csd-maximize-button) and (-moz-gtk-csd-close-button) {
+  :root[tabsintitlebar],
+  :root[customtitlebar] {
+    &:root:not([inFullscreen]) #TabsToolbar {
+      padding-right: 70px !important;
+    }
+  }
 }
 /* Window buttons: 3 buttons */
 @media (-moz-gtk-csd-minimize-button) and (-moz-gtk-csd-maximize-button) and (-moz-gtk-csd-close-button) {
-:root[tabsintitlebar], :root[customtitlebar] {
-	&:root:not([inFullscreen]) #TabsToolbar {
-		padding-right: 96px !important;
-	}
-}
+  :root[tabsintitlebar],
+  :root[customtitlebar] {
+    &:root:not([inFullscreen]) #TabsToolbar {
+      padding-right: 96px !important;
+    }
+  }
 }
 
 /* Left window buttons */
 @media (-moz-gtk-csd-reversed-placement) {
-	:root[tabsintitlebar], :root[customtitlebar] {
-	&:root:not([inFullscreen]) #TabsToolbar {
-		padding-right: 6px !important;
-	}
+  :root[tabsintitlebar],
+  :root[customtitlebar] {
+    &:root:not([inFullscreen]) #TabsToolbar {
+      padding-right: 6px !important;
+    }
 
-	/* Window buttons box */
-	#nav-bar .titlebar-buttonbox-container,
-	#titlebar .titlebar-buttonbox-container {
-		padding: 0 3px 0 4px;
-		left: 8px;
-		right: auto;
-	}
+    /* Window buttons box */
+    #nav-bar .titlebar-buttonbox-container,
+    #titlebar .titlebar-buttonbox-container {
+      padding: 0 3px 0 4px;
+      left: 8px;
+      right: auto;
+    }
 
-	/* Fullscreen headerbar padding for 1 button */
-	&:root[inFullscreen] #TabsToolbar {
-		padding-left: 50px !important;
-	}
-	}
+    /* Fullscreen headerbar padding for 1 button */
+    &:root[inFullscreen] #TabsToolbar {
+      padding-left: 50px !important;
+    }
+  }
 
-	/* Window controls: at least 1 button */
-	@media (-moz-gtk-csd-minimize-button), (-moz-gtk-csd-maximize-button), (-moz-gtk-csd-close-button) {
-	:root[tabsintitlebar], :root[customtitlebar] {
-		&:root:not([inFullscreen]) #TabsToolbar {
-			padding-left: 50px !important;
-		}
-	}
-	}
-	/* Window controls: at least 2 buttons */
-	@media (-moz-gtk-csd-minimize-button) and (-moz-gtk-csd-maximize-button),
-		(-moz-gtk-csd-minimize-button) and (-moz-gtk-csd-close-button),
-		(-moz-gtk-csd-maximize-button) and (-moz-gtk-csd-close-button) {
-		:root[tabsintitlebar], :root[customtitlebar] {
-		&:root:not([inFullscreen]) #TabsToolbar {
-			padding-left: 70px !important;
-		}
-		}
-	}
-	/* Window controls: 3 buttons */
-	@media (-moz-gtk-csd-minimize-button) and (-moz-gtk-csd-maximize-button) and (-moz-gtk-csd-close-button) {
-		:root[tabsintitlebar], :root[customtitlebar] {
-		&:root:not([inFullscreen]) #TabsToolbar {
-			padding-left: 70px !important;
-		}
-		}
-	}
+  /* Window controls: at least 1 button */
+  @media (-moz-gtk-csd-minimize-button),
+    (-moz-gtk-csd-maximize-button),
+    (-moz-gtk-csd-close-button) {
+    :root[tabsintitlebar],
+    :root[customtitlebar] {
+      &:root:not([inFullscreen]) #TabsToolbar {
+        padding-left: 50px !important;
+      }
+    }
+  }
+}
+/* Window controls: at least 2 buttons */
+@media (-moz-gtk-csd-minimize-button) and (-moz-gtk-csd-maximize-button),
+  (-moz-gtk-csd-minimize-button) and (-moz-gtk-csd-close-button),
+  (-moz-gtk-csd-maximize-button) and (-moz-gtk-csd-close-button) {
+  :root[tabsintitlebar],
+  :root[customtitlebar] {
+    &:root:not([inFullscreen]) #TabsToolbar {
+      padding-left: 70px !important;
+    }
+  }
+}
+/* Window controls: 3 buttons */
+@media (-moz-gtk-csd-minimize-button) and (-moz-gtk-csd-maximize-button) and (-moz-gtk-csd-close-button) {
+  :root[tabsintitlebar],
+  :root[customtitlebar] {
+    &:root:not([inFullscreen]) #TabsToolbar {
+      padding-left: 70px !important;
+    }
+  }
 }
 
 /* Remove tabsbar titlebar blank spaces */
 #TabsToolbar .titlebar-placeholder {
-	display: none !important;
+  display: none !important;
 }
 
 /* Remove default style of titlebar */
 #titlebar {
-	-moz-appearance: none !important;
+  -moz-appearance: none !important;
 }
 
 /* Fix the issue when dragging tabs */
 #navigator-toolbox[movingtab] #TabsToolbar {
-	padding-bottom: 0 !important;
+  padding-bottom: 0 !important;
 }
 
 /* Set theme version text in customization panel */
 #customization-footer::before {
-	background: url(icons/icon.svg) no-repeat;
-	background-size: contain;
-	content: "Firefox MacTahoe theme";
-	padding: 10px 10px 10px 50px;
+  background: url(icons/icon.svg) no-repeat;
+  background-size: contain;
+  content: "Firefox MacTahoe theme";
+  padding: 10px 10px 10px 50px;
 }
 
 #customization-container {
-	background-color: var(--gnome-browser-before-load-background) !important;
-	color: var(--gnome-toolbar-color) !important;
-	background-image: none !important;
+  background-color: var(--gnome-browser-before-load-background) !important;
+  color: var(--gnome-toolbar-color) !important;
+  background-image: none !important;
+}
+
+#main-window > * {
+  border: 1px solid var(--sidebar-border-color) !important;
+  box-sizing: border-box !important;
+  border-radius: 8px !important;
+}
+
+#main-window[sizemode="maximized"] > * {
+  border-radius: 0 !important;
 }
