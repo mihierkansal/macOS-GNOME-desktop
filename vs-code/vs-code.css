@@ -137,3 +137,8 @@
   border: 1px solid rgba(255, 255, 255, 0.05);
   border-radius: 8px;
 }
+
+.maximized[role="application"] {
+  border-radius: 0;
+  border-width: 0;
+}
