@@ -31,8 +31,8 @@ echo "-> Moving physical assets into backup staging area..."
 
 echo "-> Packaging archive into final tarball..."
 # 6. Archive the workspace cleanly
-tar -czf ~/desktop.tar.gz -C ~/GnomeBackup .
+tar -czf ./desktop/desktop.tar.gz -C ~/GnomeBackup .
 rm -rf ~/GnomeBackup
 
 echo "=========================================================================="
-echo "SUCCESS: Standalone archive generated at: ~/desktop.tar.gz"
+echo "SUCCESS: Standalone archive generated at: ./desktop/desktop.tar.gz"

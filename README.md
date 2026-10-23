@@ -65,7 +65,12 @@ Unfortunately, Vivaldi is the only Chromium-based browser that supports this kin
 
 # VS Code CSS
 
-Get an extension that lets you do custom CSS, copy ./vs-code.css to somewhere in your home directory, then add this to your VS Code settings:
+**The installer should automatically theme VS Code.**
+
+If it doesn't:
+First make sure you've not installed it using Snap or Flatpak.
+
+If you haven't installed it using Snap or Flatpak, and it's still looking un-themed, make sure you have this in your user config:
 
 ```json
 "window.menuStyle": "custom",
@@ -76,12 +81,14 @@ Get an extension that lets you do custom CSS, copy ./vs-code.css to somewhere in
 "window.menuBarVisibility": "toggle",
 ```
 
+If it still doesn't work, get an extension for custom CSS and give it the vs-code.css (found under vs-code/).
+
 # MEGA Cloud Sync
 
 MEGA sync will not work by default if you have system tray disabled; either enable the system tray in Extension Manager or use mega-cmd instead of MEGASync Desktop.
 
 # Updating/Contributing
 
-Make your changes in your home theme folder (~/.themes), run ./pack.sh then copy desktop.tar.gz from your home directory into ./desktop.
+Make your changes in your home theme folder (~/.themes), then run ./pack.sh.
 
 Or, unpack desktop.tar.gz, make your edits, re-pack natively, and copy.
